@@ -12,9 +12,9 @@ Banks and financial institutions are critically assessing eligibility for a cred
 
 
 ## Project Objectives:
-1)      To propose an effective and high prediction accuracy credit card application approval prediction model with implementation of different machine learning algorithms.
-2)      To identify the key features related to the approval of a credit card application.
-3)   To deploy the proposed prediction model with highest prediction accuracy measured with implementation of web-based application.
+1. To propose an effective and high prediction accuracy credit card application approval prediction model with implementation of different machine learning algorithms.
+2. To identify the key features related to the approval of a credit card application.
+3. To deploy the proposed prediction model with highest prediction accuracy measured with implementation of web-based application.
 ---
 
 **1. OSEMN**
@@ -48,16 +48,16 @@ Please refer to pandas_profile_file/credit_pred_profile.html
 3. Correlation 
 
 **Model:**
-1	Random Forest (RandomisedSearchCV)
-2	Random Forest (GridSearhCV)
-3	XGBoost-Default
-4	XGBoost (RandomisedSearchCV)
-5	XGBoost (GridSearchCV)
-6	Balanced Bagging Classifier (XGBoost)
-7	Balanced Bagging Classifier (DecisionTree)
-8	MLP (RandomisedSearchCV)
-9	MLP (GridSearchCV)
-10	KNN (RandomisedSearchCV)
-11	KNN (GridSearchCV)
-12	GNB (RandomisedSearchCV)
-13	GNB (GridSearchCV)
+1.  Random Forest (RandomisedSearchCV)
+2.	Random Forest (GridSearhCV)
+3.	XGBoost-Default
+4.	XGBoost (RandomisedSearchCV)
+5.	XGBoost (GridSearchCV)
+6.	Balanced Bagging Classifier (XGBoost)
+7.	Balanced Bagging Classifier (DecisionTree)
+8.	MLP (RandomisedSearchCV)
+9.	MLP (GridSearchCV)
+10.	KNN (RandomisedSearchCV)
+11.	KNN (GridSearchCV)
+12.	GNB (RandomisedSearchCV)
+13.	GNB (GridSearchCV)
