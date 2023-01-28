@@ -29,6 +29,8 @@ OSEMN Framework is implemented in this project including 5 stages:
 **Data Obtaining**
 The data is obtained from Kaggle with the link: https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction.
 
+---
+
 **Data preprocessing:**
 1. Combine dattasets/application_record.csv and datasets/credit_record.csv
 2. Checking on null value and fill up if necessary (Removal of features if necessary)
@@ -41,11 +43,15 @@ The data is obtained from Kaggle with the link: https://www.kaggle.com/datasets/
 9. Data spliting
 10. Data balancing
 
+---
+
 **Exploration:**
 Please refer to pandas_profile_file/credit_pred_profile.html
 1. Check for missing value
 2. Visualization
-3. Correlation 
+3. Correlation
+
+---
 
 **Model:**
 1.  Random Forest (RandomisedSearchCV)
@@ -61,3 +67,11 @@ Please refer to pandas_profile_file/credit_pred_profile.html
 11.	KNN (GridSearchCV)
 12.	GNB (RandomisedSearchCV)
 13.	GNB (GridSearchCV)
+
+---
+
+**Deployment**
+A Shiny App is developed for user to input data based on the criteria for credit card approval prediction, please refer to Credit_Card_Approval_App/app.R
+A brief presentation about the project is available at Credit Card Approval with Prediction Model.Rmd
+
+---
